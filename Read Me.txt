@@ -1,0 +1,15 @@
+I have successfully created a fixtures and index page
+
+They layouts are working well and nothing is buggy.
+
+I link the "rankings page" but I am still yet to create it"
+
+
+This is going well. Next pages will be fixtures which will be a table but with a gap in the middle.
+
+
+I have decided to have the current updates on every page. Every single page will maintain the same design.
+In the club updates however, I will add custom content relevant to that page. They updates panel will
+be a dynamic page.
+
+I can't wait to add the javascript that sets the winner, as the individual on number 1 on the table.
