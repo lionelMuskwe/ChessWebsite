@@ -6,35 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Chess Club</title>
 
-    <link rel="stylesheet" href="join.css">
+    <link rel="stylesheet" href="css/join.css">
 </head>
 <body>
     <div id="formContainter">
-        <div class="imageBanner">
-            
+        <div id="imageBanner">
+            <img src="../Images/joinBannerImage.png">
         </div>
+
         <div id="form">
-            <h1>Join the Chess Club</h1>
+    
+            <div id="formContent">
+                <h1>Join our Chess Club</h1>
 
-            <div class="inputWords inputSize"> <label>First Name</label> <input label="First name"></div>
+                <div class="inputSize"> 
+                    <label for="firstName">First Name:</label> 
+                    <br>
+                    <input id="firstName" class="inputWords">
+                </div>
 
-            <div class="inputWords inputSize"> <label>Last Name</label> <input label="Last name"></div>
+                <div class="inputSize"> 
+                    <label for="lastName">Last Name:</label> 
+                    <br>
+                    <input id="lastName"  class="inputWords">
+                </div>
 
-            <div class="inputWords inputSize"> <label>Student ID</label> <input label="Student ID"></div>
+                <div class="inputSize"> 
+                    <label for="studentID">Student ID:</label> 
+                    <br>
+                    <input id="studentID" class="inputWords" value="">
+                </div>
 
-            <div class="input"> <input type="radio" id="level_1" name="level" value="noob">
-            <label for="level_1"> I know absolutely nothing</label><br></div>
+                <div id="radioButtonsContainer">
+                    <div class="input"> <input type="radio" id="level_1" name="level" value="noob">
+                    <label class="radioButtonText"> I know absolutely nothing</label><br></div>
 
-            <div class="input"> <input type="radio" id="level_2" name="level" value="begginer">
-            <label for="level_2"> I understand piece movements</label><br></div>
+                    <div class="input"> <input type="radio" id="level_2" name="level" value="begginer">
+                    <label class="radioButtonText"> I understand piece movements</label><br></div>
 
-            <div class="input"> <input type="radio" id="level_3" name="level" value="intermidiate">
-            <label for="level_3"> I have a few strategies under me</label><br></div>
+                    <div class="input"> <input type="radio" id="level_3" name="level" value="intermidiate">
+                    <label class="radioButtonText"> I understand basic stategies</label><br></div>
 
-            <div class="input"> <input type="radio" id="level_4" name="level" value="experienced">
-            <label for="level_4"> I am looking for a real challenge</label></div>
+                    <div class="input"> <input type="radio" id="level_4" name="level" value="experienced">
+                    <label class="radioButtonText"> I play very well </label></div>
 
-            <div id="submitBox"><input type="submit" value="Submit" id="submitButton"></div>
+                    <div id="submitBoxContainer">
+                        <input type="submit" value="Submit" id="submitButton">
+                    </div>
+                </div>
+
+            </div>
         </div>
 
 
