@@ -105,17 +105,17 @@ body {
 
 	top: 0;
 	left: 0;
-	padding:20px;
+	padding:1.5vw;
 	float: left;
 }
 
 .sideMenuButton {
-	margin-bottom :2.5vh;
+	margin-bottom :1.1vw;
 	background-color: #DBFF57;
 }
 
 .sideNavBar a {
-	font-size: 35px;
+	font-size: 2.2vw;
 	color: #060706;
 	display: block;
 	border: 2px white;
@@ -139,7 +139,7 @@ body {
 
 
 #su_logo:hover {
-	border : 5px solid black;
+	border : 0.2vw solid black;
 	/* border-color: red; */
 }
 
@@ -154,16 +154,17 @@ body {
 
  /* [SECTION] Paragraph text styling below  */
 .homeMainText{
-	position: relative;
-	/* margin-left: 3vw; */
-	width:50vw;
+	margin: auto;
+	margin-left: 20%;
 	
-	float: left;
-	left: 15%;
+	width:50%;
+	
+	/* float: left; */
+	/* left: 15%; */
 }
 
 .contentParagraph {
-	font-size: 18px;
+	font-size: 1.3vw;
 	color:green;
 	margin-bottom: 20px;
 	padding-left: 15px;
