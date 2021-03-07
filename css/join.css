@@ -7,10 +7,10 @@ body {
 
 	margin	: auto;
 	width	: 48vw;
-	height	: 75vh;
+	height	: 35vw;
 	margin-top: 10vh;
 
-	/* border: 1px solid black; */
+	border: 4px solid black;
 }
 
 /* [Secition] Image banner */
@@ -30,14 +30,20 @@ body {
 /* [Section] Form Container */
 
 #form {
-	width: 50%; 
-	margin-left: 0.4%;
+	width: 51.8%; 
+	/* margin-left: 0.4%; */
 	/* interesting optimum with value [0.18 */
 	height: 100%;
-	float: left;
+	float: right;
 	/* border-left: 1px solid black; */
 	
-	background-color: #779556;
+	/* 
+	College logo Colours
+	 green = #86BE35
+	 blue = #2A4785
+	 */
+
+	background-image: linear-gradient(330deg,#86BE35,#5782df)
 }
 
 #formContent {

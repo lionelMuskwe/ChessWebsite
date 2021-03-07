@@ -1,7 +1,10 @@
 body {
 	padding: 0;
 	margin: 0;
+
+	font-family: sans-serif;
 }
+
 
 .topPartContainer {
 	position:fixed;
@@ -44,7 +47,7 @@ body {
 	margin-top: 2px;
 	padding: 2px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2vw;
 }
 
 #championName {
@@ -89,7 +92,7 @@ body {
 .sideNavBarContainer {
 	position: fixed;
 	margin-left: 1vw;
-	margin-top: -9vh;
+	/* margin-top: -9vh; */
 
 }
 
@@ -124,10 +127,20 @@ body {
 	color: #C6403E;
 }
 
+#suLogoContainer {
+	width: 12vw;
+	height: 12vw;
+}
+
 #su_logo {
-	width: 150px;
-	height: 150px;
-	padding: 5px;
+	width: 11vw;
+	height: 11vw;
+}
+
+
+#su_logo:hover {
+	border : 5px solid black;
+	/* border-color: red; */
 }
 
 
@@ -144,11 +157,7 @@ body {
 	position: relative;
 	/* margin-left: 3vw; */
 	width:50vw;
-	/*
-	border-width:4px;
-	border-style:solid;
-	border-color:black;
-	*/
+	
 	float: left;
 	left: 15%;
 }
@@ -213,6 +222,19 @@ body {
 	font-family: sans-serif;
 }
 
+.snippet:hover {
+	background-color: #40491f;
+}
+
+.snippet:hover .snippetTitle{
+	color:white;
+	background-color: red;
+}
+
+.snippet:hover .snippetText{
+	color: white;
+}
+
 .snippet img {
 	display: block;
 	width: 17vw;
@@ -236,7 +258,8 @@ body {
 }
 
 .snippetText {
-	color: white;
+	/* color: white; */
+	color: black;
 	font-size: 1.2vw;
 	font-family: sans-serif;
 	position: relative;
@@ -273,4 +296,44 @@ body {
 	padding-right: 10px;
 	font-size: 40px;
 	color: black !important;
+}
+
+/* Rules page CSS */
+
+#allRulesContainer {
+	/* background-color: grey; */
+}
+
+.singleRuleContainer {
+	/* margin-top: 1vw; */
+	margin-bottom: 2vw;
+
+	border: 2px solid black;
+	border-radius: 10%;
+
+	padding: 2vw;
+
+	background-color: #AAC448;
+}
+
+.singleRuleContainer:hover {
+	border: 0.3vw solid black;
+}
+
+.singleRuleHeading {
+	color: black;
+	font-size: 2.2vw;
+
+	font-weight: bold;
+	text-decoration: underline;
+
+	margin-bottom: 0.5vw;
+
+}
+
+.singleRuleText {
+	font-size: 1.5vw;
+	color: black;
+
+
 }
