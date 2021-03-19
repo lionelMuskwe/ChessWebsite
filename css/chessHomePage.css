@@ -158,6 +158,7 @@ body {
 	margin-left: 20%;
 	
 	width:50%;
+
 	
 	/* float: left; */
 	/* left: 15%; */
@@ -269,48 +270,76 @@ body {
 
 /* table layout below */
 
+#leagueTable * {
+	padding: 0px;
+	margin: 0px;
+}
+
 #leagueTable {
 	width:100%;
-	background-color: #a8a7aa;
+}
+
+#leagueTable th {
+	color: black;
+	padding: 0.5vw;
+	font-size: 1.8vw;
+
+	background-color:rgb(32, 167, 32);
+}
+
+#leagueTable tr {
+	background-color: green;
 }
 
 #leagueTable td {
 	color: black;
-	border-left: 0px solid black;
+
+	text-align: center;
+
+	height: 7vh;
+	width: 4vw;
+
+
+
+	background-color: rgb(109, 175, 9);
+
+
+	/* border-left: 0px solid black;
 	border-left: 0px solid black;
 	padding: 5px;
-	text-align: center;
+	
 	width: 50px;
 	margin: 0px;
-	height:30px;
+	height:30px; */
 }
 
-#leagueTable th {
-	color: red;
-	border: 1px solid black;
-	padding: 5px;
-	font-size: 25px;
+
+#leagueTable .tableFirstName {
+	padding-left: 0.5vw;
+	text-align: left;
 }
 
-.tablePosition {
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 40px;
-	color: black !important;
+#leagueTable .tableLastName {
+	padding-left: 0.5vw;
+	text-align: left;
 }
+
+.topLeftEmptyBoxvtopLeftEmptyBox {
+	background-color: white;
+
+
+}
+
 
 /* Rules page CSS */
 
-#allRulesContainer {
-	/* background-color: grey; */
-}
 
 .singleRuleContainer {
 	/* margin-top: 1vw; */
 	margin-bottom: 2vw;
 
 	border: 2px solid black;
-	border-radius: 10%;
+	border-radius: 50px;
 
 	padding: 2vw;
 
@@ -337,4 +366,49 @@ body {
 	color: black;
 
 
+}
+
+.practiceVideoContainer {
+	width: 100%;
+	height: 100%;
+
+	background-color: orange;
+}
+
+.videoPlaceHolderLeft {
+	width: 23vw;
+	height: 15vw;
+	
+	margin-bottom: 3vw;
+
+	float: left;
+	
+
+}
+
+.videoPlaceHolderRight {
+	width: 23vw;
+	height: 15vw;
+
+	margin-bottom: 3vw;
+
+	float: right;
+
+	
+}
+
+.chessVideo {
+	width: 100%;
+	height: 100%;
+
+	display: block;
+	
+}
+
+.videoText {
+	font-size: 2vw;
+	color: black;
+
+	text-shadow: red;
+	text-align: center;
 }
